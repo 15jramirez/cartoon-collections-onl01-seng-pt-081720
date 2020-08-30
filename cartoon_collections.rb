@@ -1,4 +1,4 @@
-def roll_call_dwarves (array)
+  def roll_call_dwarves (array)
   new_arry=[]
   array.each_with_index.collect {|name,i| puts new_arry << "#{i + 1} #{name}"}
 end
